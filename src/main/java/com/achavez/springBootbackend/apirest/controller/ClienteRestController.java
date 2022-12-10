@@ -24,7 +24,7 @@ import com.achavez.springBootbackend.apirest.model.services.ClienteService;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = { "localhost:4200"}) // configuracion para el puerto de angular. podemos configurar metodos y cabeceras permitidas
+@CrossOrigin(origins = { "localhost:4200"}) // configuracion para el puerto de angular. 
 public class ClienteRestController { 
 	
 	
