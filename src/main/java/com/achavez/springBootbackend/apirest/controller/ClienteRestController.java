@@ -42,7 +42,7 @@ import com.achavez.springBootbackend.apirest.model.services.UploadFileService;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = { "http://localhost:4200"}) // configuracion para el puerto de angular. 
+@CrossOrigin(origins = { "http://localhost:4200", "*"}) // configuracion para el puerto de angular. 
 public class ClienteRestController { 
 	
 	private final Logger log = LoggerFactory.getLogger(ClienteRestController.class);

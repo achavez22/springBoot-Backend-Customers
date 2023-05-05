@@ -1,4 +1,4 @@
-package com.achavez.springBootbackendapirest;
+package com.achavez.springBootbackend.apirest;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
