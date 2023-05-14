@@ -31,3 +31,5 @@ build/
 
 ### VS Code ###
 .vscode/
+
+src/main/java/com/achavez/springBootbackend/apirest/auth/JwtConfig.java
